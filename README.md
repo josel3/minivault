@@ -53,17 +53,19 @@ No hay instalación. Descargá el script para tu entorno:
 
 ```bash
 # Python (requiere Python 3.8+)
-curl -O https://raw.githubusercontent.com/tu-usuario/minivault/main/minivault.py
+curl -O https://raw.githubusercontent.com/josel3/minivault/main/minivault.py
 chmod +x minivault.py
 
 # Node.js (requiere Node 16+)
-curl -O https://raw.githubusercontent.com/tu-usuario/minivault/main/minivault.js
+curl -O https://raw.githubusercontent.com/josel3/minivault/main/minivault.js
 chmod +x minivault.js
 
 # PHP (requiere PHP 8.1+ con extensión openssl)
-curl -O https://raw.githubusercontent.com/tu-usuario/minivault/main/minivault.php
+curl -O https://raw.githubusercontent.com/josel3/minivault/main/minivault.php
 chmod +x minivault.php
 ```
+
+O simplemente descarga el archivo desde el repo.
 
 No se instalan dependencias externas. OpenSSL es parte del core de los tres runtimes.
 
